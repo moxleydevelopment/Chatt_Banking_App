@@ -1,0 +1,235 @@
+﻿/* Below is the general template for entire web application*/
+#Wrapper {
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 1070px; 
+   
+    
+}
+
+body {
+   background-image:url(bkimage.png);
+   
+}
+
+#header {
+    position: absolute;
+    z-index: 1;
+}
+
+nav{
+
+    float: left;
+    max-width:290px;
+    clear:both;
+    margin-top: -20px;
+    
+    
+   
+}
+
+nav ul {
+
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+   
+    
+}
+
+ ul li{
+
+    padding-bottom:20px;
+    padding-top: 20px;
+    font-size:20px;
+    max-width:290px;
+}
+
+ li a{
+
+     display:block;
+     text-decoration:none;
+     padding:16px 32px;
+     color: brown;
+
+ }
+
+ li a:hover{
+
+     background-color: brown;
+     color:yellow;
+ }
+
+
+/* Below is the css markup for the login container on the main page*/
+
+aside {
+    float: right;
+    max-width: 220px;
+    color: brown;
+    font-size: 20px;
+    background-color: #dbb69d;
+    padding-left: 50px;
+    height:200px;
+    padding-top: 30px;
+}
+
+aside a{
+
+    
+    color: yellow;
+    font-size: 15px;
+    
+}
+
+.submitBT{
+
+   width: 147px;
+   height: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding-top:20px;
+  
+
+   
+}
+
+
+header {
+    height: 150px;
+    
+}
+
+
+    header h1 {
+        color: #CC6400;
+        width: 1150px;
+        float: left;
+        padding-left: 30px;
+    }
+
+header a{
+    float: right;
+    color:black;
+}
+
+#picDiv{
+
+    
+    padding:0px;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+.inline {
+    display: inline;
+    background-color:aquamarine;
+}
+
+/* below is the styling for CustomerDisplay*/
+
+.dTable {
+    border-collapse: separate;
+    width: 900px;
+}
+
+.rowTable {
+
+    height: 50px;
+  
+}
+
+    .rowTable:hover {
+        background-color: slategrey;
+        color: brown;
+    }
+
+.tableHd {
+    background-color: slategrey;
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+}
+
+.custAdd {
+    width: 300px;
+    float: right;
+    font-size: 30px;
+}
+
+.custName {
+    width: 300px;
+    font-size: 30px;
+}
+
+#optionsDiv{
+
+    display:block;
+    max-width: 900px;
+    max-height: 200px;
+   
+    overflow:auto;
+}
+
+
+#newAcctDiv {
+   width: 200px; 
+   margin-left: 160px;
+   
+}
+
+#depositeDiv {
+    width: 200px;
+    
+   float: left;
+    
+}
+
+#withdrawDiv {
+   width:200px;
+   float: right;
+}
+
+.depositeBT {
+    background-color: brown;
+    width: 145px;
+    color: slategrey;
+}
+
+.withdrawBT {
+    background-color: brown;
+    width: 145px;
+    color: slategrey;
+}
+
+.newAccBT {
+    background-color: brown;
+    margin-top: 5px;
+    height: 35px;
+    color: slategrey;
+}
+
+/* CSS mark up for NewAccount page*/
+
+
+
+
+/*  Below is markup for admin login page*/
+
+.adminLogin {
+
+    padding-left: 100px;
+
+}
+
+
+
+
+
+
+
